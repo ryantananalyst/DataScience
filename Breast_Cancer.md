@@ -25,8 +25,7 @@
 
 ## 🚀 Project Overview
 
-A comprehensive machine learning solution for early breast cancer detection using biopsy data. This project demonstrates the application of data science in healthcare, achieving **97.4% accuracy** in classifying tumors as malignant or benign.
-It demonstrates data preprocessing, model training, evaluation, and visualization — showing how AI can assist healthcare decision-making.
+A machine learning project for breast cancer classification using biopsy data. The best model (K-Nearest Neighbours) achieved **95.6% accuracy and 97.2% recall** on held-out test data in classifying tumours as malignant or benign.
 
 - **Goal:** Early breast cancer detection through pattern recognition  
 - **Approach:** Supervised learning (Classification)  
@@ -68,7 +67,7 @@ It demonstrates data preprocessing, model training, evaluation, and visualizatio
 | **Precision** | 0.9589 (95.9%) |
 | **Recall** | 0.9722 (97.2%) |
 | **F1-Score** | 0.9655 (96.6%) |
-| **-AUC** | 0.9792 |
+| **ROC-AUC** | 0.9792 |
 
 ✅ The model achieved strong generalization with minimal overfitting.  
 ✅ Excellent recall — ideal for healthcare prediction where **false negatives** are critical.  
@@ -91,11 +90,11 @@ It demonstrates data preprocessing, model training, evaluation, and visualizatio
 
 ---
 
-## 🩺 Business / Clinical Impact
-- **97.4% Accuracy** in tumor classification, comparable to expert radiologist performance
-- **Zero False Negatives** - No missed cancer cases in test set (most critical metric)
-- **95.6% Precision** - Minimal false alarms reducing unnecessary patient stress
-- Potential to assist in **early cancer detection** and improve patient outcomes
+## 🩺 What the results mean
+- **95.6% accuracy and 97.2% recall** on the held-out test set
+- **Recall prioritised:** in screening, a missed cancer costs more than a false alarm. At 97.2% recall the model still missed a small share of malignant cases in the test set.
+- **95.9% precision:** few false alarms
+- **Limits:** trained and tested on a small public benchmark (UCI Breast Cancer Wisconsin, 569 samples). Not clinically validated; performance on real patient data would likely be lower.
 
 ---
 
@@ -106,7 +105,7 @@ It demonstrates data preprocessing, model training, evaluation, and visualizatio
 
 ## 🧭 Enhancements
 - Integration with medical imaging systems for real-time analysis
-- Development of web interface for clinical use
+- Development of a demo web interface
 - Expansion to multi-class classification for cancer staging
 - Implementation of deep learning approaches for improved accuracy
 
