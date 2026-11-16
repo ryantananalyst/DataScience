@@ -104,7 +104,7 @@ A machine learning project for breast cancer classification using biopsy data. T
 ---
 
 ## 🧭 Enhancements
-- Integration with medical imaging systems for real-time analysis
+- Testing on a second, independent dataset
 - Development of a demo web interface
 - Expansion to multi-class classification for cancer staging
 - Implementation of deep learning approaches for improved accuracy
