@@ -40,7 +40,7 @@ Build a **predictive machine learning system** to identify at-risk students for 
 | **Data Analysis** | Pandas, NumPy |
 | **Machine Learning** | Scikit-learn (Random Forest, Logistic Regression, Gradient Boosting) |
 | **Visualization** | Matplotlib, Seaborn |
-| **Deployment** | Streamlit dashboard (simulation) |
+| **Demo** | Streamlit dashboard (simulation) |
 
 ---
 
@@ -99,18 +99,17 @@ Build a **predictive machine learning system** to identify at-risk students for 
 | **Academic Pressure** | 36.3% anxiety among high CGPA students |
 | **Program Risk** | Engineering & Medicine highest |
 
-```
+---
 
 ## ⚙️ Code
 The analysis notebook is available on request.
 
-```
+---
 
-💼 Skills Demonstrated
-
-✅ Data Cleaning & Feature Engineering — Categorical encoding, risk scoring
-✅ Exploratory Data Analysis (EDA) — Correlation heatmaps, feature trends
-✅ Model Development & Evaluation — Random Forest, Logistic Regression, Gradient Boosting
-✅ Model Comparison & ROC Analysis — AUC-ROC visualization and metric summary
-✅ Demo dashboard — Streamlit dashboard for mental health screening simulation
-✅ Communication for Stakeholders — Translating ML outputs into actionable counseling insights
+## 💼 Skills Demonstrated
+- ✅ Data Cleaning & Feature Engineering — categorical encoding, risk scoring
+- ✅ Exploratory Data Analysis — correlation heatmaps, feature trends
+- ✅ Model Development & Evaluation — Random Forest, Logistic Regression, Gradient Boosting
+- ✅ Model Comparison & ROC Analysis — AUC-ROC visualisation and metric summary
+- ✅ Demo dashboard — Streamlit simulation of mental health screening
+- ✅ Communication for Stakeholders — translating model outputs into counselling insights
